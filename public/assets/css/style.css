@@ -114,7 +114,7 @@ button{
 }
 .live_preview_section_wrapper{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 90%;
@@ -169,4 +169,32 @@ button{
     border-radius: 40px;
     width: 22rem;
     height: auto;
+}
+
+@media (max-width: 780px) {
+    .live_preview_section_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        width: 95%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .live_preview_section_intro_wrapper{
+        justify-self: left;
+        width: 90%;
+        max-width: 30rem;
+    }
+    .live_preview_section_img_wrapper{
+        padding: 1rem;
+        width: 80%;
+        display: flex;
+        justify-content: right;
+    }
+    .live_preview_section_img{
+        border-radius: 40px;
+        width: 100%;
+        height: auto;
+    }
 }
