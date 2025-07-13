@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* cursor: pointer; */
+    font-family: "Poppins", sans-serif;
+    /* transition: .4s all ease-in-out; */
+
+}
+body{
+    /* background-color: black; */
+    /* transition: .4s all ease-in-out; */
+}
+button{
+    cursor: pointer;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/files/Hero-bg.png);
+}
+.nav_wrapper{
+    width: 90%;
+    max-width: 75rem;
+    height: 8rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 2rem; */
+    /* background-color: aqua; */
+}
+.nav_logo{
+    font-size: 2rem;
+    color: #4d47ff;
+    font-weight: 800;
+}
+.nav_btn_signup{
+    color: #fff;
+    background-color: #4d47ff;
+    padding: .4rem 1.2rem;
+    border: 1px solid #4d47ff;
+    border-radius: 4px;
+    transition: .2s all ease-in-out;
+    box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
+}
+.nav_btn_signup:hover,
+.nav_btn_signup:focus{
+    background-color: #3430b1;
+    padding: .4rem 1.2rem;
+    border: 1px solid #4d47ff;
+}
