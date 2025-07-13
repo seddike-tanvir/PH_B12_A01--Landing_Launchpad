@@ -10,6 +10,7 @@
 body{
     background-color: #ffffff00;
     /* transition: .4s all ease-in-out; */
+    overflow-x: hidden;
 }
 button{
     cursor: pointer;
@@ -88,7 +89,7 @@ button{
     font-weight: 700;
     width: max-content;
     align-self: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: .5rem 1.4rem;
     border: 1px solid #4d47ff;
     border-radius: 4px;
@@ -99,4 +100,73 @@ button{
 .hero_banner_btn:focus{
     background-color: #3430b1;
     border: 1px solid #4d47ff;
+}
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+    /* margin: auto; */
+}
+.live_preview_section_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 65rem;
+    height: auto;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.live_preview_section_intro_wrapper{
+    padding: 1rem;
+    width: 50%;
+    max-width: 30rem;
+}
+.live_preview_section_intro_header{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #242331;
+}
+.live_preview_section_intro_subHeader{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #b4b6bf;
+}
+.live_preview_section_intro_btn{
+    color: #fff;
+    background-color: #4d47ff;
+    font-size: .89rem;
+    font-family: var(--sm_font_26);
+    font-weight: 700;
+    width: max-content;
+    align-self: center;
+    margin-top: 1.5rem;
+    padding: .5rem 1.4rem;
+    border: 1px solid #4d47ff;
+    border-radius: 4px;
+    transition: .2s all ease-in-out;
+    box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
+}
+.live_preview_section_intro_btn:hover,
+.live_preview_section_intro_btn:focus{
+    background-color: #3430b1;
+    border: 1px solid #4d47ff;
+}
+.live_preview_section_img_wrapper{
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.live_preview_section_img{
+    border-radius: 40px;
+    width: 22rem;
+    height: auto;
 }
