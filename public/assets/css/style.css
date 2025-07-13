@@ -17,7 +17,7 @@ button{
 .header{
     width: 100vw;
     height: 100vh;
-    background-image: url(/public/assets/files/Hero-bg.png);
+    background-image: url(../files/Hero-bg.png);
 }
 .nav_wrapper{
     width: 90%;
